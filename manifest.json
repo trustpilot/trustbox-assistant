@@ -4,6 +4,7 @@
   "version": "1.0",
   "description": "Troubleshooting Trustpilot TrustBoxes",
   "browser_action": {
+    "default_icon": "icons/icon32.png",
     "default_title": "TrustBox Assistant"
   }
 }

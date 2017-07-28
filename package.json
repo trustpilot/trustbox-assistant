@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "watch": "web-ext run",
-    "lint": "eslint '**/*.js'"
+    "lint": "eslint '**/*.js' && web-ext lint"
   },
   "devDependencies": {
     "eslint-config-trustpilot": "^1.7.0",
