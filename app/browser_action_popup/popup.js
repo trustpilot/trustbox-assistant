@@ -1,6 +1,4 @@
-browser.tabs.executeScript({
-  file: '/trustbox-checker.js'
-}).then((results) => {
+const contentScriptCallback = (results) => {
   const result = results.pop();
   if (!result) {
     return;
@@ -18,5 +16,14 @@ browser.tabs.executeScript({
   } catch (e) {
     console.debug(e);
   }
+};
 
-});
+const scriptParams = {
+  file: '/content_scripts/trustbox-checker.js'
+};
+
+if (typeof chrome !== 'undefined') {
+  chrome.tabs.executeScript(scriptParams, contentScriptCallback);
+} else {
+  browser.tabs.executeScript(scriptParams).then(contentScriptCallback);
+}
