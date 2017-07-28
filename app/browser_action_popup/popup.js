@@ -1,5 +1,5 @@
 browser.tabs.executeScript({
-  file: '/app/trustbox-checker.js'
+  file: '/trustbox-checker.js'
 }).then((results) => {
   const result = results.pop();
   if (!result) {

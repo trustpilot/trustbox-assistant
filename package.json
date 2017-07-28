@@ -7,8 +7,8 @@
   "author": "Trustpilot",
   "license": "MIT",
   "scripts": {
-    "watch": "web-ext run",
-    "lint": "eslint '**/*.js' && web-ext lint"
+    "watch": "cd app && web-ext run",
+    "lint": "cd app eslint '**/*.js' && web-ext lint"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
