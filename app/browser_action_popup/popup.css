@@ -1,3 +1,9 @@
 body {
     font-family: 'Noto Sans', sans-serif;
 }
+
+.popup {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: end;
+}
