@@ -11,7 +11,9 @@
     "lint": "eslint '**/*.js' && web-ext lint"
   },
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
     "eslint-config-trustpilot": "^1.7.0",
+    "eslint-plugin-babel": "^4.1.2",
     "web-ext": "^1.10.1"
   }
 }
