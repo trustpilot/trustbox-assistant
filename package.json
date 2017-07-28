@@ -7,9 +7,11 @@
   "author": "Trustpilot",
   "license": "MIT",
   "scripts": {
-    "watch": "web-ext run"
+    "watch": "web-ext run",
+    "lint": "eslint '**/*.js'"
   },
   "devDependencies": {
+    "eslint-config-trustpilot": "^1.7.0",
     "web-ext": "^1.10.1"
   }
 }
