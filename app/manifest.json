@@ -10,5 +10,8 @@
     "default_icon": "icons/icon32.png",
     "default_title": "TrustBox Assistant",
     "default_popup": "browser_action_popup/popup.html"
+  },
+  "icons": {
+    "48": "icons/icon48.png"
   }
 }
