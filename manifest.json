@@ -3,8 +3,12 @@
   "name": "TrustBox Assistant",
   "version": "1.0",
   "description": "Troubleshooting Trustpilot TrustBoxes",
+  "permissions": [
+    "activeTab"
+  ],
   "browser_action": {
-    "default_icon": "icons/icon32.png",
-    "default_title": "TrustBox Assistant"
+    "default_icon": "app/icons/icon32.png",
+    "default_title": "TrustBox Assistant",
+    "default_popup": "app/browser_action_popup/popup.html"
   }
 }
