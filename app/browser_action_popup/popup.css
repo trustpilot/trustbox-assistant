@@ -1,9 +1,34 @@
 body {
-    font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 10px 0;
+  color: #666;
+}
+
+h1::before {
+  content: ' ';
+  display: inline-block;
+  height: 16px;
+  width: 20px;
+  background: url('../icons/icon16.png') no-repeat;
 }
 
 .popup {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  justify-items: end;
+  grid-gap: 5px;
+  grid-template-columns: auto 50px;
+}
+
+.popup--label {
+  justify-self: start;
+}
+
+.popup--value {
+  justify-self: center;
 }
