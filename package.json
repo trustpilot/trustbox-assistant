@@ -1,0 +1,15 @@
+{
+  "name": "widgets-browserassistant",
+  "version": "1.0.0",
+  "description": "A helpful browser extension for troubleshooting TrustBoxes",
+  "main": "index.js",
+  "repository": "git@github.com:trustpilot/widgets-browserassistant.git",
+  "author": "Trustpilot",
+  "license": "MIT",
+  "scripts": {
+    "watch": "web-ext run"
+  },
+  "devDependencies": {
+    "web-ext": "^1.10.1"
+  }
+}
