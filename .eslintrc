@@ -1,5 +1,9 @@
 {
   "extends": "trustpilot",
+  "env": {
+    "browser": true,
+    "webextensions": true
+  },
   "rules": {
     "no-console": "off"
   }
