@@ -1,6 +1,8 @@
 # widgets-browserassistant
 A helpful browser extension for troubleshooting TrustBoxes
 
+![Check your TrustBox integration in one click](/screenshots/Firefox.png?raw=true "Check your TrustBox integration in one click")
+
 ## Development
 
 Do the obligatory `npm install` or `yarn`, and then:
