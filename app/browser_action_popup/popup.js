@@ -10,25 +10,25 @@ const contentScriptCallback = (results) => {
     };
 
     const boostrapCheck = document.getElementById('bootstrapFromTrustpilot');
-    boostrapCheck.innerHTML = renderBoolean(result.bootstrapFromTrustpilot);
+    boostrapCheck.textContent = renderBoolean(result.bootstrapFromTrustpilot);
 
     const inHeadCheck = document.getElementById('bootstrapInHead');
-    inHeadCheck.innerHTML = renderBoolean(result.bootstrapInHead);
+    inHeadCheck.textContent = renderBoolean(result.bootstrapInHead);
 
     const widgetStats = document.getElementById('widgetStats');
-    widgetStats.innerHTML = `${result.numLiveWidgets} / ${result.numWidgets}`;
+    widgetStats.textContent = `${result.numLiveWidgets} / ${result.numWidgets}`;
 
     const richSnippetsWidgets = document.getElementById('numRichSnippetsWidgets');
-    richSnippetsWidgets.innerHTML = result.numRichSnippetsWidgets;
+    richSnippetsWidgets.textContent = result.numRichSnippetsWidgets;
 
     const richSnippets = document.getElementById('richSnippets');
-    richSnippets.innerHTML = result.numRichSnippetsWidgets ? renderBoolean(result.orgRichSnippet) : 'N/A';
+    richSnippets.textContent = result.numRichSnippetsWidgets ? renderBoolean(result.orgRichSnippet) : 'N/A';
 
     const productRichSnippetsWidgets = document.getElementById('numProductRichSnippetsWidgets');
-    productRichSnippetsWidgets.innerHTML = result.numProductRichSnippetsWidgets;
+    productRichSnippetsWidgets.textContent = result.numProductRichSnippetsWidgets;
 
     const productRichSnippets = document.getElementById('productRichSnippets');
-    productRichSnippets.innerHTML =
+    productRichSnippets.textContent =
       result.numProductRichSnippetsWidgets ? renderBoolean(result.productRichSnippet) : 'N/A';
 
   } catch (e) {
