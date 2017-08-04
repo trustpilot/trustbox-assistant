@@ -25,10 +25,10 @@ h1::before {
   grid-template-columns: auto 50px;
 }
 
-.popup--label {
+.popup__label {
   justify-self: start;
 }
 
-.popup--value {
+.popup__value {
   justify-self: center;
 }
