@@ -1,7 +1,17 @@
 # trustbox-assistant
-A helpful browser extension for troubleshooting TrustBoxes
+
+Browser extension to troubleshoot TrustBoxes.
+
+TrustBoxes are Trustpilot's widgets - stand-alone applications that show customer reviews on your website.
 
 ![Check your TrustBox integration in one click](/screenshots/Firefox.png?raw=true "Check your TrustBox integration in one click")
+
+## Download
+
+The extension is available for Chrome and Firefox:
+
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/trustbox-assistant/aofjkdnekcfcnijpaickcjlacdoipkop/)
+- [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/trustpilot-trustbox-assistant/)
 
 ## Development
 
