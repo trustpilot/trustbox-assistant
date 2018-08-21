@@ -1,3 +1,7 @@
+before_script:
+  - git clone -b v1 --depth 1 https://$GITHUB_TOKEN@github.com/trustpilot/build-scripts.git
+  - build-scripts/travis/init
+
 script:
   - ./publish.sh
 
