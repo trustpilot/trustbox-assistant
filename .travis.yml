@@ -1,0 +1,5 @@
+script:
+  - ./publish.sh
+
+branches:
+  only: master
