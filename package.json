@@ -7,14 +7,14 @@
   "author": "Trustpilot",
   "license": "MIT",
   "scripts": {
-    "watch": "cd app && web-ext run",
-    "lint": "cd app && eslint **/*.js && web-ext lint"
+    "lint": "cd app && eslint **/*.js",
+    "web-ext-watch": "cd app && web-ext run",
+    "web-ext-lint": "web-ext lint"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^4.3.0",
     "eslint-config-trustpilot": "^1.7.0",
-    "eslint-plugin-babel": "^4.1.2",
-    "web-ext": "^1.10.1"
+    "eslint-plugin-babel": "^4.1.2"
   }
 }
